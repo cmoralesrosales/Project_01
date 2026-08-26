@@ -64,13 +64,7 @@ Source:
 
 ## Define the user message template
 qna_user_message_template = """
-###Context
-Here are some excerpts from the articles and their sources that are relevant to the question mentioned below:
 
-{context}
-
-###Question
-{question}
 """
 
 @st.cache_resource
